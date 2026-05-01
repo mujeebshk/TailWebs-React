@@ -1,15 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" id="contact">
       <div className="footer-content">
-        <div
-          className="container"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(4, 1fr)",
-            gap: "32px",
-          }}
-        >
+        <div className="container footer-grid">
           <div className="footer-column">
             <a className="footer-brand" href="#home">
               <span className="logo-mark">e</span>
@@ -77,20 +70,9 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <div
-          className="container"
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            alignItems: "center",
-            flexWrap: "wrap",
-            gap: "16px",
-            width: "100%",
-            maxWidth: "100%",
-          }}
-        >
-          <span>&copy;2024. eGov. All Rights Reserved</span>
-          <div style={{ display: "flex", gap: "24px" }}>
+        <div className="container footer-bottom-inner">
+          <span>&copy;2026. eGov. All Rights Reserved</span>
+          <div className="footer-legal-links">
             <a href="#home">Privacy Policy</a>
             <a href="#home">Terms and Conditions</a>
           </div>

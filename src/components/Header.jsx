@@ -16,9 +16,9 @@ export default function Header() {
 
   const navLinks = [
     { label: "About Us", href: "#about" },
-    { label: "Areas of Work", href: "#approach" },
-    { label: "Products & Solutions", href: "#products" },
+    { label: "Areas of Work", href: "#impact" },
     { label: "Our Platform", href: "#platform" },
+    { label: "Products & Solutions", href: "#products" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -61,7 +61,8 @@ export default function Header() {
           <button
             className="navbar-toggle"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            style={{ display: "none" }}
+            aria-label="Toggle navigation"
+            aria-expanded={mobileMenuOpen}
           >
             <span></span>
             <span></span>

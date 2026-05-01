@@ -3,14 +3,7 @@ export default function HeroSection() {
     <section className="hero-section page-section" id="home">
       <div className="hero-swoosh"></div>
       <div className="container">
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            gap: "48px",
-            alignItems: "center",
-          }}
-        >
+        <div className="hero-layout">
           <div className="hero-content" id="about">
             <h1>
               20 years of digital transformation in public service delivery{" "}

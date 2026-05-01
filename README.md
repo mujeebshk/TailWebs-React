@@ -2,7 +2,7 @@
 
 This is a re-implementation of the eGov Foundation landing page using React, built with Vite. It features a responsive design, a dynamic product listing, search functionality, and category filtering.
 
-**Live Demo:** [https://mujeebshk.github.io/TailWebs-HTML/](https://mujeebshk.github.io/TailWebs-React/)
+**Live Demo:** [https://mujeebshk.github.io/TailWebs-React/](https://mujeebshk.github.io/TailWebs-React/)
 
 ## Features
 
